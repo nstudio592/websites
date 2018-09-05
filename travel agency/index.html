@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--Import materialize.css-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+
+    	.navbar-fixed {
+    		position: absolute;
+    		z-index: 999;
+    	}
+
+    	#hero-image .parallax-container {
+    		height: 100vh;
+    	}
+
+    	#banner .parallax-container {
+    		height: 400px;
+    	}
+
+    	.margin {
+    		margin-top: 2rem;
+    	}
+
+    	#features h3, #destinations h3 {
+    		margin-bottom: 2.5rem;
+    	}
+
+    	#features p {
+    		margin-bottom: 2.5rem;
+    	}
+
+    	.tabs .tab a{
+    		color: #009688 !important;
+    	}
+
+    	   /* label underline focus color */
+	  	   /* label underline focus color */
+   		#contact .input-field input[type=text]:focus {
+     			border-bottom: 1px solid #2196f3;
+  	 			box-shadow: 0 1px 0 0 #2196f3;
+   }
+
+    </style>
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <div class="navbar-fixed">
+      <nav class="transparent z-depth-0">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Travelocity</a>
+            <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#hero-image">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#popular">Destinations</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div> <!--End of navbar-->
+
+    <!--mobile nav-->
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="#hero-image">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#">Destinations</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul> <!--end of mobile nav-->
+
+
+    <setion id="hero-image">
+	    <div class="parallax-container center valign-wrapper">
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col s12 white-text">
+	    				<h1>Travelocity</h1>
+	    				<h4>Book your next vacation now!</h4>
+	    				<a class="btn-large waves-effect waves-light orange darken-3">Read More</a>
+	    			</div>
+	    		</div>
+	    	</div>
+	      	<div class="parallax"><img src="mountains3.jpg"></div>
+	    </div>
+	</setion>
+
+	<section id="features" class="center">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<h3><span class="blue-text">Travel</span> around the world</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m4">
+					<i class="fas fa-camera-retro fa-3x orange-text"></i>
+					<h5>Make Memories</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur a neque in eleifend. Nam tempor placerat purus in imperdiet.</p>
+				</div>
+				<div class="col s12 m4">
+					<i class="fas fa-heart fa-3x orange-text"></i>
+					<h5>Build Bonds</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur a neque in eleifend. Nam tempor placerat purus in imperdiet.</p>
+				</div>
+				<div class="col s12 m4">
+					<i class="fas fa-bicycle fa-3x orange-text"></i>
+					<h5>Adventure</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur a neque in eleifend. Nam tempor placerat purus in imperdiet.</p>
+				</div>
+			</div>
+			<div class="divider"></div>
+		</div>
+	</section>
+
+	<section id="destinations" class="center">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<h3><span class="blue-text">Explore</span> Popular Desitinations</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur a neque in eleifend. Nam tempor placerat purus in imperdiet. Nam tempor placerat purus in imperdiet. Curabitur bibendum scelerisque enim, in mattis tellus bibendum ut.</p>
+				</div>
+			</div>
+		 <div class="row">
+		   <div class="col s12 m3">
+		     <div class="card">
+		       <div class="card-image">
+		         <img src="lake.jpg">
+		         <span class="card-title">Colarado</span>
+		         <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+		       </div>
+		       <div class="card-content">
+		         <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+		       </div>
+		       <div class="card-action">
+		       	<a href="#"><i class="fas fa-heart"></i> Like</a>
+		       	<a href="#"><i class="fas fa-share-alt"></i> Share</a>
+		       </div>
+		     </div>
+		   </div>
+
+		   <div class="col s12 m3">
+		     <div class="card">
+		       <div class="card-image">
+		         <img src="venice.jpg">
+		         <span class="card-title">Venice</span>
+		         <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+		       </div>
+		       <div class="card-content">
+		         <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+		       </div>
+		       <div class="card-action">
+		       	<a href="#"><i class="fas fa-heart"></i> Like</a>
+		       	<a href="#"><i class="fas fa-share-alt"></i> Share</a>
+		       </div>
+		     </div>
+		   </div>
+
+		   <div class="col s12 m3">
+		     <div class="card">
+		       <div class="card-image">
+		         <img src="tropical.jpg">
+		         <span class="card-title">Brazil</span>
+		         <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+		       </div>
+		       <div class="card-content">
+		         <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+		       </div>
+		       <div class="card-action">
+		       	<a href="#"><i class="fas fa-heart"></i> Like</a>
+		       	<a href="#"><i class="fas fa-share-alt"></i> Share</a>
+		       </div>
+		     </div>
+		   </div>
+
+		   <div class="col s12 m3">
+		     <div class="card">
+		       <div class="card-image">
+		         <img src="sunset.jpg">
+		         <span class="card-title">Hawaii</span>
+		         <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+		       </div>
+		       <div class="card-content">
+		         <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+		       </div>
+		       <div class="card-action">
+		       	<a href="#"><i class="fas fa-heart"></i> Like</a>
+		       	<a href="#"><i class="fas fa-share-alt"></i> Share</a>
+		       </div>
+		     </div>
+		   </div>
+		 </div>
+
+		</div>
+	</section>
+
+	<section id="banner">
+	  <div class="parallax-container center valign-wrapper">
+	  	<div class="container">
+	  		<div class="col s12">
+	  			<h3 class="white-text">" Your Dream Vacation Awaits, And At Great Prices Too! "</h3>
+	  		</div>
+	  	</div>
+      	<div class="parallax"><img src="beach1.jpg"></div>
+      </div>
+	</section>
+
+	<section id="contact">
+		<div class="container">
+			<h4 class="center"><span class="blue-text">Contact</span> Us</h4>
+			<div class="row">
+				<div class="col s12 m6">
+					<div class="card-panel orange white-text center">
+						<i class="fas fa-envelope fa-3x"></i>
+						<h5>Get In Touch</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+					</div>
+					    <ul class="collection z-depth-1">
+      						<li class="collection-item"><h5>Contact Information</h5></li>
+      						<li class="collection-item"><i class="fas fa-phone"></i> 592-226-5796</li>
+      						<li class="collection-item"><i class="fas fa-envelope"></i> travelocity@email.com</li>
+      						<li class="collection-item"><i class="fab fa-whatsapp"></i> 592-642-1888</li>
+    					</ul>
+				</div>
+				<div class="col s12 m6">
+					<div class="card-panel grey lighten-2 center">
+						<div class="input-field">
+							<input type="text" placeholder="Name">
+						</div>
+						<div class="input-field">
+							<input type="text" placeholder="Email">
+						</div>
+						<div class="input-field">
+							<input type="text" placeholder="Phone">
+						</div>
+						<div class="input-field">
+							<textarea class="materialize-textarea" placeholder="Enter Message"></textarea>
+						</div>
+						<input type="submit" value="Submit" class="btn orange">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+        <footer class="page-footer blue white-text">
+          <div class="container">
+          	<div class="row">
+          		<div class="col s12">
+          			<h3 class="center">Get the <span class="orange-text">best</span> tickets</h3>
+          			<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam.</p>
+          		</div>
+          	</div>
+
+            <div class="row">
+              <div class="col m4 s12">
+                <table>
+                	<thead>
+                		<td><strong>Day</strong></td>
+                		<td><strong>Opening Hours</strong>
+                	</thead>
+                	<tbody>
+                		<tr>
+	                		<td>Mon - Thurs</td>
+	                		<td>8am - 9pm</td>
+                		</tr>
+
+                		<tr>
+                			<td>Fri - Sat</td>
+                			<td>9am - 6pm</td>
+                		</tr>
+
+                		<tr>
+                			<td>Sunday</td>
+                			<td>9am - 1pm</td>
+                		</tr>
+                	</tbody>
+                </table>
+              </div>
+              <div class="col m4 offset-m4 s12">
+                <ul>
+                  <li class="white-text"><h5>Address</h5></li>
+                  <li class="white-text">94 Barnabus St.</li>
+                  <li class="white-text">Campbellville, Georgetwon</li>
+                  <li class="white-text">Guyana</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright center">
+            <div class="container">
+            © Copyright 2018
+            </div>
+          </div>
+        </footer>
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+    <script>
+
+	    //Navbar
+	    document.addEventListener('DOMContentLoaded', function() {
+	        var elems = document.querySelectorAll('.sidenav');
+	        var instances = M.Sidenav.init(elems, {});
+	    });
+
+	    //Parallax
+	    document.addEventListener('DOMContentLoaded', function() {
+		    var elems = document.querySelectorAll('.parallax');
+		    var instances = M.Parallax.init(elems, {});
+	  	});
+
+	    //scroll
+	    window.onscroll = () => {
+	    const nav = document.querySelector('nav');
+	    if(this.scrollY >= 75){nav.className = 'blue';}
+	    else {nav.className = 'transparent z-depth-0';}
+	    };
+
+	    //
+		  document.addEventListener('DOMContentLoaded', function() {
+		    var elems = document.querySelectorAll('.materialboxed');
+		    var instances = M.Materialbox.init(elems, {});
+		  });
+    </script>
+  </body>
+
+</html>
